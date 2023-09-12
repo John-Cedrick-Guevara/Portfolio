@@ -132,7 +132,7 @@ function App() {
               <img
                 className="project-img"
                 src={`images/${item.img}`}
-                alt=""
+                alt="Project Image"
               />
               <h2 className="project-name">{item.name}</h2>
               <h4 className="project-tech">{item.tech}</h4>
