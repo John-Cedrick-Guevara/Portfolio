@@ -63,7 +63,7 @@ function App() {
         <img
           onClick={() => setShowNav((prev) => !prev)}
           className="menu-btn"
-          src="../images/menu.png"
+          src="/images/menu.png"
           alt=""
         />
 
@@ -87,7 +87,7 @@ function App() {
       </nav>
 
       <section id="home" className="main-hero-container">
-        <img className="hero-img" src="./images/me.png" alt="" />
+        <img className="hero-img" src="/images/me.png" alt="" />
 
         <div className="hero-texts">
           <h1>
@@ -131,7 +131,7 @@ function App() {
             <div key={index} className="project">
               <img
                 className="project-img"
-                src={`images/${item.img}`}
+                src={`/images/${item.img}`}
                 alt="Project Image"
               />
               <h2 className="project-name">{item.name}</h2>
@@ -147,7 +147,7 @@ function App() {
 
       <section id="about" className="about">
         <div className="about-image-container">
-          <img className="about-image" src="../images/about-pic.png" alt="" />
+          <img className="about-image" src="/images/about-pic.png" alt="" />
           <div className="image-bg"></div>
         </div>
 
@@ -181,17 +181,17 @@ function App() {
 
         <div className="socials">
           <a href="https://www.facebook.com/johncedrick.guevara.1">
-            <img src="../images/icons8-facebook.svg" alt="" />
+            <img src="/images/icons8-facebook.svg" alt="" />
           </a>
           <a href="https://www.instagram.com/jhncdrckgvr/?fbclid=IwAR3Ba80xGR6BOz9gYIxgGDRGPoVGgiQFo1cH2ZQ93gTa5O6sU0kGeoaP1u4">
-            <img src="../images/icons8-instagram.svg" alt="" />
+            <img src="/images/icons8-instagram.svg" alt="" />
           </a>
           <a href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWrRttNjBrfnTqvtxFWlwPtTtptKfBnCrKxfNKRjqxlSRBgsPGfDWWLwKbQzXFTwftSjldfKG">
-            <img src="../images/icons8-email-50.png" alt="" />
+            <img src="/images/icons8-email-50.png" alt="" />
           </a>
 
           <a href="https://www.linkedin.com/in/john-cedrick-guevara-66381027b/">
-            <img src="../images/icons8-linkedin.svg" alt="" />
+            <img src="/images/icons8-linkedin.svg" alt="" />
           </a>
         </div>
       </section>
