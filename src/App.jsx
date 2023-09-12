@@ -131,7 +131,7 @@ function App() {
             <div key={index} className="project">
               <img
                 className="project-img"
-                src={`./images/${item.img}`}
+                src={`images/${item.img}`}
                 alt=""
               />
               <h2 className="project-name">{item.name}</h2>
